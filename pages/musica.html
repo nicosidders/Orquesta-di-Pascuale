@@ -9,6 +9,18 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link rel="stylesheet" href="../scss/styles.css" />
     <title>Orquesta di Pascuale | Música</title>
+    <style>
+        main{
+            margin-top: calc(56px + 1em);
+        }
+        .videos, .spotify{
+            margin-top: 1em;
+        }
+        .videos>p, .spotify>p{
+            color: goldenrod;
+            padding-inline-start: 2em;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,8 +62,14 @@
     </header>
 
     <main>
-        <section>
-
+        <section class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v8NJlpFC500" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D7ckJ4omRZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>aca vendrian mas videos cuando los suba</p>
+        </section>
+        <section class="spotify">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAoWgJBCmuYK9pFw6g5XE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <p>aca vendria una lista de ODP cuando la suba</p>
         </section>
     </main>
 
