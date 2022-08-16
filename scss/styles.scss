@@ -1,5 +1,72 @@
+$colorHover:rgba(180, 70, 6, 0.897);
+
 html,
 body {
     background-color: rgba(133, 33, 33, 0.959);
 }
 
+.navLat {
+    background-color: rgba(155, 37, 37, 0.925);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+
+
+}
+
+
+.navFont {
+    color: rgba(182, 155, 33, 0.904);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &:hover {
+        color: $colorHover;
+    }
+}
+
+.redes {
+    margin-top: 1em;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.redes>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.redes a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.bio {
+    margin-inline: 1em;
+    color: goldenrod;
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+}
+
+.musica,
+.videos {
+    h2 {
+        margin-inline: 1em;
+        color: goldenrod;
+        text-align: center;
+    }
+}
+
+.form {
+    color: goldenrod;
+}
