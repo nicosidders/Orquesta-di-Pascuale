@@ -58,4 +58,24 @@ body {
 
 .form {
   color: goldenrod;
+}
+
+.desktop {
+  width: 100vw;
+  height: 92vh;
+  text-align: center;
+}
+.desktop .hero-img {
+  height: 100%;
+}
+.desktop .hero-img img {
+  height: 100%;
+}
+.desktop .link {
+  height: 8vh;
+  padding: 1.5em;
+}
+.desktop .link a {
+  text-decoration: none;
+  color: goldenrod;
 }/*# sourceMappingURL=styles.css.map */

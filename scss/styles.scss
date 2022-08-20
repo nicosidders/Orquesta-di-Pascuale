@@ -70,3 +70,23 @@ body {
 .form {
     color: goldenrod;
 }
+
+.desktop{
+    width: 100vw;
+    height: 92vh;
+    text-align: center;
+    .hero-img{
+        height: 100%;
+        img{
+            height: 100%;
+        }
+    }
+    .link{
+        height: 8vh;
+        padding: 1.5em;
+        a{
+            text-decoration: none;
+            color: goldenrod;
+        }
+    }
+}
