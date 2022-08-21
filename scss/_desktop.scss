@@ -1,0 +1,22 @@
+.desktop{
+  width: 100vw;
+  height: 92vh;
+  text-align: center;
+  .hero-img{
+      height: 100%;
+      img{
+          height: 100%;
+      }
+  }
+  .link{
+      height: 8vh;
+      display: grid;
+      place-items: center;
+      a{
+          text-decoration: none;
+          color: $dorado;
+          font-family: 'Great Vibes', cursive;
+          font-size: 2em;
+      }
+  }
+}

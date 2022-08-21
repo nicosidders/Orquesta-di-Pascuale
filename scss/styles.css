@@ -1,3 +1,26 @@
+.desktop {
+  width: 100vw;
+  height: 92vh;
+  text-align: center;
+}
+.desktop .hero-img {
+  height: 100%;
+}
+.desktop .hero-img img {
+  height: 100%;
+}
+.desktop .link {
+  height: 8vh;
+  display: grid;
+  place-items: center;
+}
+.desktop .link a {
+  text-decoration: none;
+  color: #E0B300;
+  font-family: "Great Vibes", cursive;
+  font-size: 2em;
+}
+
 html,
 body {
   background-color: #1F1F1F;
@@ -57,25 +80,5 @@ body {
 }
 
 .form {
-  color: #E0B300;
-}
-
-.desktop {
-  width: 100vw;
-  height: 92vh;
-  text-align: center;
-}
-.desktop .hero-img {
-  height: 100%;
-}
-.desktop .hero-img img {
-  height: 100%;
-}
-.desktop .link {
-  height: 8vh;
-  padding: 1.5em;
-}
-.desktop .link a {
-  text-decoration: none;
   color: #E0B300;
 }/*# sourceMappingURL=styles.css.map */
