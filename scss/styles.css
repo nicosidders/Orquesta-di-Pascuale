@@ -1,6 +1,31 @@
+.desktop {
+  width: 100vw;
+  text-align: center;
+}
+.desktop .hero-img {
+  height: 92vh;
+}
+.desktop .hero-img img {
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.desktop .link {
+  height: 8vh;
+  display: grid;
+  place-items: center;
+}
+.desktop .link a {
+  text-decoration: none;
+  color: #E0B300;
+  font-family: "Great Vibes", cursive;
+  font-size: 2em;
+}
+
 html,
 body {
-  background-color: rgba(133, 33, 33, 0.959);
+  background-color: #1F1F1F;
 }
 
 .navLat {
@@ -34,12 +59,12 @@ body {
 
 .redes a {
   text-decoration: none;
-  color: goldenrod;
+  color: #E0B300;
 }
 
 .bio {
   margin-inline: 1em;
-  color: goldenrod;
+  color: #E0B300;
 }
 .bio h1,
 .bio h2 {
@@ -52,10 +77,10 @@ body {
 .musica h2,
 .videos h2 {
   margin-inline: 1em;
-  color: goldenrod;
+  color: #E0B300;
   text-align: center;
 }
 
 .form {
-  color: goldenrod;
+  color: #E0B300;
 }/*# sourceMappingURL=styles.css.map */
