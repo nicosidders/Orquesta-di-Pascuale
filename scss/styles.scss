@@ -1,8 +1,8 @@
-$colorHover:rgba(180, 70, 6, 0.897);
+@import 'vars.scss';
 
 html,
 body {
-    background-color: rgba(133, 33, 33, 0.959);
+    background-color:  $background;
 }
 
 .navLat {
@@ -40,12 +40,12 @@ body {
 
 .redes a {
     text-decoration: none;
-    color: goldenrod;
+    color: $dorado;
 }
 
 .bio {
     margin-inline: 1em;
-    color: goldenrod;
+    color: $dorado;
 
     h1,
     h2 {
@@ -62,13 +62,13 @@ body {
 .videos {
     h2 {
         margin-inline: 1em;
-        color: goldenrod;
+        color: $dorado;
         text-align: center;
     }
 }
 
 .form {
-    color: goldenrod;
+    color: $dorado;
 }
 
 .desktop{
@@ -86,7 +86,7 @@ body {
         padding: 1.5em;
         a{
             text-decoration: none;
-            color: goldenrod;
+            color: $dorado;
         }
     }
 }

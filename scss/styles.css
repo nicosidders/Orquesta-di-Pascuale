@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: rgba(133, 33, 33, 0.959);
+  background-color: #1F1F1F;
 }
 
 .navLat {
@@ -34,12 +34,12 @@ body {
 
 .redes a {
   text-decoration: none;
-  color: goldenrod;
+  color: #E0B300;
 }
 
 .bio {
   margin-inline: 1em;
-  color: goldenrod;
+  color: #E0B300;
 }
 .bio h1,
 .bio h2 {
@@ -52,12 +52,12 @@ body {
 .musica h2,
 .videos h2 {
   margin-inline: 1em;
-  color: goldenrod;
+  color: #E0B300;
   text-align: center;
 }
 
 .form {
-  color: goldenrod;
+  color: #E0B300;
 }
 
 .desktop {
@@ -77,5 +77,5 @@ body {
 }
 .desktop .link a {
   text-decoration: none;
-  color: goldenrod;
+  color: #E0B300;
 }/*# sourceMappingURL=styles.css.map */
