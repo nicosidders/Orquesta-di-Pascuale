@@ -1,73 +1,176 @@
 @import 'vars.scss';
 @import 'desktop.scss';
 
+*{
+    font-family: 'Dosis', Courier, monospace;
+}
+
 html,
 body {
     background-color:  $background;
 }
 
-.navLat {
-    background-color: rgba(155, 37, 37, 0.925);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-
-
+a{
+    text-decoration: none;
+    color: $dorado;    
 }
 
 
+/*NAVBAR*/
+
+#bando-offcanvas-toggler{
+    width: 10vw;
+}
+
 .navFont {
     color: rgba(182, 155, 33, 0.904);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+  
 
     &:hover {
         color: $colorHover;
     }
 }
 
-.redes {
-    margin-top: 1em;
-    width: 85vw;
-    margin: 0 auto;
-}
-
-.redes>ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.navbar>.container-fluid{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
-.redes a {
-    text-decoration: none;
-    color: $dorado;
-}
+.navbar-dark{
+    --bs-navbar-toggler-border-color: #212529
 
-.bio {
-    margin-inline: 1em;
-    color: $dorado;
-
-    h1,
-    h2 {
-        text-align: center;
     }
 
-    p {
-        text-align: center;
+    .navLat {
+        background-color: rgba(155, 37, 37, 0.925);
+    
+        font-size: larger;
+    
+    
     }
 
-}
 
-.musica,
-.videos {
-    h2 {
-        margin-inline: 1em;
+    /*BIO*/
+
+
+
+    section .bio-titulo{
+        font-size: 2rem;
+    }
+
+    .banner{
+        padding: 1px;
+    }
+    p{
         color: $dorado;
-        text-align: center;
+        margin: 1rem;
+        padding: 0.5rem;
     }
+
+
+/*INTEGRANTES*/
+
+.integrantes{
+    color: $dorado;
 }
+
+
+/*CARDS INTEGRANTES*/
+.container {
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 300px;
+    background: $background;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+  }
+  .container::-webkit-scrollbar {
+    height: 6px;
+  }
+  .container::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  .container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  .container .item {
+    flex: 0 0 100%;
+    padding: 24px;
+    color: #ffffff;
+    border-radius: 5    px;
+    scroll-snap-align: start;
+  }
+  .container .item h2 {
+    text-transform: capitalize;
+  }
+  .container .item h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 8px;
+  }
+  .container .item:nth-child(1) {
+    background:  #212529;
+  }
+  .container .item:nth-child(2) {
+    background:  #212529;
+  }
+  .container .item:nth-child(3) {
+    background:  #212529;
+  }
+  .container .item:nth-child(4) {
+    background:  #212529;
+  }
+  .container .item:nth-child(5) {
+    background:  #212529;
+  }
+  .container .item:nth-child(6) {
+    background:  #212529;
+  }
+
+h2, li{
+color: $dorado;
+
+}
+h4{
+    color: $rojo;
+}
+
+.container img{
+    width: 3.5rem;
+    padding: 10px;
+}
+
+
+
+/*MUSICA Y VIDEOS*/
+
+/*CONTACTO*/
 
 .form {
     color: $dorado;
 }
+
+.form-floating>.form-control{
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/*FOOTER*/
+
+footer{
+    
+    --bs-body-color-rgb: $dorado;
+    --bs-border-color: red    ; 
+    color: $dorado;   
+}
+
