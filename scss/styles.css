@@ -23,6 +23,28 @@
   font-size: 2em;
 }
 
+.hero-img {
+  height: 92vh;
+}
+.hero-img img {
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.link {
+  height: 8vh;
+  display: grid;
+  place-items: center;
+}
+.link a {
+  text-decoration: none;
+  color: #E0B300;
+  font-family: "Great Vibes", cursive;
+  font-size: 2em;
+}
+
 * {
   font-family: "Dosis", Courier, monospace;
 }
