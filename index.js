@@ -78,38 +78,41 @@ const component1 =
 
     </header>
 
-
-
+    
+   
 
     <main>
 
 
-        <!-- LANDING -->
-        <h1>ORQUESTA DI PASCUALE</h1>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
+    <!-- LANDING -->
+    <h1>ORQUESTA DI PASCUALE</h1>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./odp-vert-mob/vert1.jpg" class="d-block w-100" alt="foto1">
+                <img src="../fotos ODP/Julio - Hasta Trilce (100).png" class="d-block w-100" alt="foto1">
+            </div>
+            <!--<div class="carousel-item">
+                <img src="../fotos ODP/CUERDA SOLISTA, ESTA TIENE QUE ESTAR.jpg" class="d-block w-100" alt="foto2">
+            </div>-->
+            <div class="carousel-item">
+                <img src="../fotos ODP/BANDONEONES 4.jpg" class="d-block w-100" alt="foto3">
             </div>
             <div class="carousel-item">
-                <img src="./odp-vert-mob/vert2.jpg"class="d-block w-100" alt="foto2">
+                <img src="../fotos ODP/6.png" class="d-block w-100" alt="foto4">
             </div>
             <div class="carousel-item">
-                <img src="./odp-vert-mob/vert3.jpg"class="d-block w-100" alt="foto3">
+                <img src="../fotos ODP/DSC07581.png" class="d-block w-100" alt="foto4">
             </div>
-            <div class="carousel-item">
-                <img src="./odp-vert-mob/vert4.jpg"class="d-block w-100" alt="foto4">
-            </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-            </button>                
-        </div>
+        </button>
+    </div>
 
         <!-- BIO -->
         <section id="bio">
@@ -206,28 +209,111 @@ const component1 =
  
     <section class="videos" id="videos">       
     <h2 class="p-4">Videos</h2>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-touch="true">
-        <div class="carousel-inner">
+    <section class="videos">
+      <h2 class="d-flex justify-content-center">Corto</h2>
+      <article>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3">
+            </button>
+          </div>
+          <div class="carousel-inner">
             <div class="carousel-item active">
-                <iframe class="d-block w-100 p-4" width="560" height="315" src="https://www.youtube.com/embed/v8NJlpFC500" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/s6WTvT2KjSs" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
             </div>
             <div class="carousel-item">
-                <iframe class="d-block w-100 p-4" width="560" height="315" src="https://www.youtube.com/embed/D7ckJ4omRZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/rfx0oaE8bjU" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
             </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <div class="carousel-item">
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/9aBJKcUAYRM" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+          </button>
+        </div>
+      </article>
+
+      <h2 class="mb-2 mt-4 d-flex justify-content-center"> Canciones</h2>
+
+      <article>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner mt-4">
+            <div class="carousel-item active">
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/A9TKMk3Ya7c" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="carousel-item">
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/yFHCvXmu89U" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="carousel-item">
+              <iframe width="560" height="380" src="https://www.youtube.com/embed/PBvgZuswZ0g" class="d-block w-100"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>
+
+      <h2 class="mb-2 mt-4 d-flex justify-content-center">Orquesta Típica en el CCK</h2>
+      <a href="https://www.youtube.com/embed/E5bj1bqciko" target="_blank">
+
+        <img src="../fotos ODP/cck1.jpeg" class="imgCck" alt="">
+
+      </a>
+
+    </section>
     </section>
 
     <section id="form">
     <div class="container-md mt-4 mb-4">
-    <h1 class="form">Dejanos tu comentario</h1>
+    <img src="../fotos ODP/ORQUESTA ENTERA 2.jpg" class="imgContacto mt-4" alt="foto contacto">
+    <h1 class="form d-flex justify-content-center">Contacto</h1>
     <form action="https://formsubmit.co/acavieneun@mail.com " method="post"> 
         <!-- orquestatipicadipasquale@gmail.com // cambiar a este mail cuando se sube a la pagina final -->
         <div class="form-group">
@@ -282,12 +368,13 @@ const component1 =
 
 const component2 =
     `
-  <main class="desktop">
-        <section class="hero-img">
-            <img src="./fotos ODP/_05A0051.png" >
-        </section>
+   <main class="desktop">
         <section class="link" >
-            <a href="./pages/bio.html">Ingresar</a>
+          <a href="./pages/bio.html">Orquesta Típica Di Pasquale</a>
+          <img id="bando-offcanvas-toggler" class="bandoIndex aniBando" src="./fotos ODP/icons8-bandoneón-90.png" alt="bando-offcanvas-toggler">
+         </section>
+       <section class="hero-img">
+          <img src="./fotos ODP/ORQUESTA ENTERA 1.jpg" class="aniImg" >
         </section>
     </main>
   `;
