@@ -108,7 +108,7 @@ p {
 .container .item {
   flex: 0 0 100%;
   padding: 24px;
-  color: #ffffff;
+  color: $dorado;
   border-radius: 5 px;
   scroll-snap-align: start;
 }
@@ -125,29 +125,29 @@ p {
   margin-bottom: 8px;
 }
 
-.container .item:nth-child(1) {
-  background: #212529;
-}
+// .container .item:nth-child(1) {
+//   background: #212529;
+// }
 
-.container .item:nth-child(2) {
-  background: #212529;
-}
+// .container .item:nth-child(2) {
+//   background: #212529;
+// }
 
-.container .item:nth-child(3) {
-  background: #212529;
-}
+// .container .item:nth-child(3) {
+//   background: #212529;
+// }
 
-.container .item:nth-child(4) {
-  background: #212529;
-}
+// .container .item:nth-child(4) {
+//   background: #212529;
+// }
 
-.container .item:nth-child(5) {
-  background: #212529;
-}
+// .container .item:nth-child(5) {
+//   background: #212529;
+// }
 
-.container .item:nth-child(6) {
-  background: #212529;
-}
+// .container .item:nth-child(6) {
+//   background: #212529;
+// }
 
 h2,
 li {
@@ -227,44 +227,14 @@ footer {
   animation: aniTextBio 0.5s ease 0s 1 reverse  forwards;
 }
 
-@keyframes aniTextBio2 {
-	0% {
-		transform: translateX(0);
-	}
-
-	100% {
-		transform: translateX(100px);
-	}
-}
-
 .aniTextBio2{
-  animation: aniTextBio2 1s ease 0s 1 reverse forwards;
-}
-
-@keyframes aniTextBio3 {
-	0% {
-		transform: translateX(0);
-	}
-
-	100% {
-		transform: translateX(100px);
-	}
+  animation: aniTextBio 1s ease 0s 1 reverse forwards;
 }
 
 .aniTextBio3{
-  animation: aniTextBio3 1.5s ease 0s 1 reverse  forwards;
-}
-
-@keyframes aniTextBio4 {
-	0% {
-		transform: translateX(0);
-	}
-
-	100% {
-		transform: translateX(100px);
-	}
+  animation: aniTextBio 1.5s ease 0s 1 reverse  forwards;
 }
 
 .aniTextBio4{
-  animation: aniTextBio4 2s ease 0s 1 reverse forwards;
+  animation: aniTextBio 2s ease 0s 1 reverse forwards;
 }
