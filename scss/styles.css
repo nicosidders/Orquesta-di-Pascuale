@@ -111,7 +111,7 @@
 
 html,
 body {
-  background-color: #1F1F1F;
+  background-color: #f1f1f1;
 }
 
 a {
@@ -174,7 +174,7 @@ p {
   overflow-x: scroll;
   padding: 24px;
   width: 300px;
-  background: #1F1F1F;
+  background: #f1f1f1;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
   scroll-padding: 24px;
@@ -199,7 +199,7 @@ p {
 .container .item {
   flex: 0 0 100%;
   padding: 24px;
-  color: #ffffff;
+  color: #E0B300;
   border-radius: 5 px;
   scroll-snap-align: start;
 }
@@ -214,30 +214,6 @@ p {
   font-weight: 500;
   margin-top: 48px;
   margin-bottom: 8px;
-}
-
-.container .item:nth-child(1) {
-  background: #212529;
-}
-
-.container .item:nth-child(2) {
-  background: #212529;
-}
-
-.container .item:nth-child(3) {
-  background: #212529;
-}
-
-.container .item:nth-child(4) {
-  background: #212529;
-}
-
-.container .item:nth-child(5) {
-  background: #212529;
-}
-
-.container .item:nth-child(6) {
-  background: #212529;
 }
 
 h2,
@@ -313,65 +289,14 @@ footer {
   animation: aniTextBio 0.5s ease 0s 1 reverse forwards;
 }
 
-@-webkit-keyframes aniTextBio2 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
-
-@keyframes aniTextBio2 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
 .aniTextBio2 {
-  animation: aniTextBio2 1s ease 0s 1 reverse forwards;
+  animation: aniTextBio 1s ease 0s 1 reverse forwards;
 }
 
-@-webkit-keyframes aniTextBio3 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
-
-@keyframes aniTextBio3 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
 .aniTextBio3 {
-  animation: aniTextBio3 1.5s ease 0s 1 reverse forwards;
+  animation: aniTextBio 1.5s ease 0s 1 reverse forwards;
 }
 
-@-webkit-keyframes aniTextBio4 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
-
-@keyframes aniTextBio4 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
 .aniTextBio4 {
-  animation: aniTextBio4 2s ease 0s 1 reverse forwards;
+  animation: aniTextBio 2s ease 0s 1 reverse forwards;
 }/*# sourceMappingURL=styles.css.map */
