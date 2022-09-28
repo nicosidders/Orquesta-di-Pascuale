@@ -44,7 +44,7 @@ const component1 =
             <!-- LANDING -->
     
             <h1>ORQUESTA DI PASQUALE</h1>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="../fotos ODP/Julio - Hasta Trilce (100).png" class="d-block w-100" alt="foto1">
@@ -70,10 +70,10 @@ const component1 =
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div>-->
     
     
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="./odp-vert-mob/vert3.jpg" alt="First slide">
@@ -82,10 +82,21 @@ const component1 =
                     <img class="d-block w-100" src="./odp-vert-mob/vert2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
+                        <img src="../fotos ODP/CUERDA SOLISTA, ESTA TIENE QUE ESTAR.jpg" class="d-block w-100" alt="foto2">
+                    </div>
+                  <div class="carousel-item">
                     <img class="d-block w-100" src="./odp-vert-mob/vert1.jpg" alt="Third slide">
                   </div>
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
     
     
             <!-- BIO -->
@@ -225,7 +236,7 @@ const component1 =
     
             <section id="form">
                 <div class="container-md mt-4 mb-4">
-                    <img src="../Orquesta-di-Pascuale/fotos ODP/Julio - Hasta Trilce (85).png" class="imgContacto mt-4" alt="foto contacto">
+                    <img src="../fotos ODP/Julio - Hasta Trilce (85).png" class="imgContacto mt-4" alt="foto contacto">
     
     
                     <div class="contacto-titulo">
