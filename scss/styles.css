@@ -129,9 +129,9 @@ a {
 }
 
 .navLat {
-  background-color: rgba(255, 255, 255, 0.925);
+  background-color: rgba(255, 255, 255, 0.897);
   font-size: larger;
-  background-image: url(../odp-vert-mob/tango-vector-opa.png);
+  background-image: url(../fotos\ ODP/pianoNav.jpg);
   background-position: top;
 }
 
@@ -193,6 +193,26 @@ p {
   color: black;
   margin: 1rem;
   padding: 0.5rem;
+}
+
+.imgBio {
+  display: flex;
+  margin-left: 60%;
+  margin-top: -350px;
+  margin-bottom: 100px;
+  width: 500px;
+  height: 400px;
+  border-radius: 2%;
+}
+
+.textBio {
+  text-align: left;
+  margin-right: 50%;
+  margin-left: 50px;
+}
+
+.textBio2 {
+  margin-left: 50px;
 }
 
 /*INTEGRANTES*/

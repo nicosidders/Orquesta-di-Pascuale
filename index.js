@@ -85,7 +85,7 @@ const component1 =
                         <img src="../fotos ODP/CUERDA SOLISTA, ESTA TIENE QUE ESTAR.jpg" class="d-block w-100" alt="foto2">
                     </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="./odp-vert-mob/vert1.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="../fotos ODP/CUERDA SOLISTA 2.jpg" alt="Third slide">
                   </div>
                 </div>
               </div>
@@ -106,11 +106,11 @@ const component1 =
                 <img  src="./fotos ODP/banner.png" class=" wow slideInLeft banner d-block w-100" alt="banner">
                 
                 <div class="bio-container"><p>
-                    La Orquesta Típica Di Pasquale se forma a comienzos del año 2019 con el propósito de aportar producciones propias y arreglos de tangos contemporáneos en un formato tan emblemático como lo fue la Orquesta Típica.
+                La Orquesta Típica Di Pasquale se forma a comienzos del año 2019 con el propósito de continuar con la tradición de aportar producciones propias y arreglos de tangos (entre otras músicas populares) contemporáneos tal como ha sido históricamente en la época dorada del género y en un formato tan emblemático como lo fue la Orquesta Típica.
                 </p></div>
     
                 <div class="bio-container"><p>
-                    Conformada por 4 bandoneones, 4 violines, viola, violoncello, piano, contrabajo, y cantor/a, la Típica Di Pasquale se dedica a aportar al corpus del tango nuevas composiciones y arreglos de tangos instrumentales, canción, valses, milongas, zambas, candombes, buscando en ellas una continuidad con la tradición de producción, tal como ha sido históricamente en la época dorada del género
+                Conformada por 4 bandoneones, 4 violines, viola, violoncello, piano, contrabajo, y cantor/a, la Típica Di Pasquale se dedica a aportar al corpus del tango nuevas composiciones y arreglos de tangos instrumentales, canción, valses, milongas, zambas, candombes.
                 </p></div>
     
                 <div class="bio-container"><p>
@@ -166,7 +166,7 @@ const component1 =
                         <img src="./fotos ODP/icons8-violonchelo-50.png" alt="ico-violonchelo">
                     </div>
                     <div class="item">
-                        <h2>BANDONEON</h2>
+                        <h2>BANDONEONES</h2>
                         <ul>
                             <li><a href="#">Joaquín Sterman</a></li>
                             <li><a href="#">Tomás Muir</a></li>
@@ -201,7 +201,7 @@ const component1 =
     
             <section class="musica" id="musica">
                 <p class="musica-titulo"> MUSICA </p>
-                <img src="./fotos ODP/banner-bebop.png"  class=" d-block w-100" alt="">
+                <img src="./fotos ODP/banner-musica.png"  class=" d-block w-100" alt="">
     
                     
     
@@ -214,7 +214,7 @@ const component1 =
     
             <section class="videos" id="videos">       
             <p class="videos-titulo" >VIDEOS</p>    
-            <img src="./fotos ODP/banner-videos.png"  class=" d-block w-100" alt="">
+            <img src="./fotos ODP/banner-bando.png"  class=" d-block w-100" alt="">
     
     
     
@@ -236,7 +236,7 @@ const component1 =
     
             <section id="form">
                 <div class="container-md mt-4 mb-4">
-                    <img src="../fotos ODP/Julio - Hasta Trilce (85).png" class="imgContacto mt-4" alt="foto contacto">
+                    <img src="../fotos ODP/piano odp.jpeg" class="imgContacto mt-4" alt="foto contacto">
     
     
                     <div class="contacto-titulo">
