@@ -3,20 +3,19 @@ const desktopQuerie = '800px'
 const component1 = 
     `  
     <!-- HEADER MOBILE -->
-        <header>
+        <header id="top">
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <span> <img id="bando-offcanvas-toggler" src="./odp-vert-mob/new-logo.png" alt="bando-offcanvas-toggler"></span>
-                    </button>                
-                    <a class="navbar-brand navFont" href="./index.html">ORQUESTA TIPICA DI PASQUALE</a>                
-                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                        aria-labelledby="offcanvasDarkNavbarLabel">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span>
+                            <img id="bando-offcanvas-toggler" src="./odp-vert-mob/new-logo.png" alt="bando-offcanvas-toggler">
+                        </span>
+                    </button>
+                    <a class="navbar-brand navFont" href="#top">ORQUESTA TIPICA DI PASQUALE</a>
+                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div class="offcanvas-header navFont">
                             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">ORQUESTA TIPICA DI PASQUALE</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body navLat">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -344,4 +343,17 @@ mql.addEventListener('change', (e) => {
     } else {
         setBodyInnerHtml(component2);
     }
+})
+
+// cerrar offcanvas -- NO TOCAR
+
+let offcanvasItems = document.querySelectorAll("div.offcanvas-body li.nav-item")
+let offcanvasButton = document.querySelector("div.offcanvas-header button")
+
+offcanvasItems.forEach(item =>{
+    item.addEventListener('click',()=>{
+        setTimeout(()=>{
+            offcanvasButton.click();
+        },750)
+    })
 })
