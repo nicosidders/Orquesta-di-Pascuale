@@ -1,0 +1,68 @@
+
+//MOBILE NAVBAR
+
+.mobile-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+} 
+    .titulo{
+        margin-right: 30vw;
+        font-size: 2em;
+    }
+    .mobile-navbar a{
+     font-size: 1.5em;
+     padding: 0.2em;
+    color: white;
+}
+
+
+
+
+.bio-titulo-desktop{
+    font-size: 5em;
+    margin-bottom: -5vw;
+    display: flex;
+}
+
+
+.biografia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 3em;
+    .texto {
+        margin-right: 50vw;
+    }
+    
+}
+
+
+.imgBio{
+    width: 40vw;
+    height: 30vw;
+    position: absolute;
+    border-start-start-radius: 300px;
+    border-end-end-radius: 300px;
+  
+  }
+  
+
+//Integrantes
+
+.g-3, .gy-3 {
+    --bs-gutter-y: 4rem;
+}
+
+.py-5 {
+    padding-top: 5rem!important;
+    padding-bottom: 3rem!important;
+}
+
+
+//Animacion de imagen de biografia
+
+.slide-in-right{-webkit-animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both}
+
+@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}

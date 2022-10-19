@@ -5,18 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- SASS -->
     <link rel="stylesheet" href="../scss/styles.css" />
+
+
+    <!-- FontAwesome(?) -->
     <script src="https://kit.fontawesome.com/5f6e29c9ac.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- Titulo -->
     <title>Orquesta Típica Di Pasquale | BIO</title>
+
+
 </head>
 
 <body>
-    <header>
+
+    <header class="sticky-top">
+        <div class="mobile-navbar">
+
+          <a class="titulo" href="./bio.html"> ORQUESTA TIPICA DI PASQUALE</a>
+
+          <a href="./bio.html">BIO</a>
+          <a href="./musica.html">MUSICA</a>
+          <a href="./videos.html">VIDEOS</a>
+          <a href="./contacto.html">CONTACTO</a>
+        </div>        
+    </header>
+
+
+    
+    <!-- <header>
         <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Orquesta Típica Di Pasquale</a>
+                <a class="navbar-brand" href="../index.html">ORQUESTA TIPICA DI PASQUALE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -48,32 +82,44 @@
             </div>
         </nav>
 
-    </header>
+    </header> -->
 
     <main>
         <!-- BIO -->
-        <section>
-            <p class="bio-titulo">HISTORIA</p>
-            <img src="../fotos ODP/banner.png" class=" wow slideInLeft banner d-block w-100" alt="banner">
-            <p class="aniTextBio textBio2">
+
+        <p class="bio-titulo-desktop">HISTORIA</p>
+
+        
+        <section class="biografia">          
+            <!-- <img src="../fotos ODP/banner.png" class=" wow slideInLeft banner d-block w-100" alt="banner"> -->
+
+            <div class="texto">
+            <p >
                 La Orquesta Típica Di Pasquale se forma a comienzos del año 2019 con el propósito de continuar con la tradición de aportar producciones propias y arreglos de tangos (entre otras músicas populares) contemporáneos tal como ha sido históricamente en la época dorada del género y en un formato tan emblemático como lo fue la Orquesta Típica.
             </p>
-            <p class="aniTextBio2 textBio" >
+
+            <p>
                 Conformada por 4 bandoneones, 4 violines, viola, violoncello, piano, contrabajo, y cantor/a, la Típica Di Pasquale se dedica a aportar al corpus del tango nuevas composiciones y arreglos de tangos instrumentales, canción, valses, milongas, zambas, candombes.
             </p>
-            <p class="aniTextBio3 textBio">
+
+            <p >
                 La orquesta se ha presentado en destacadas salas, teatros, milongas y festivales de Buenos Aires, tales como el CCK, CAFF, Hasta Trilce! entre otros, compartiendo escenario con referentes de la música popular argentina.
             </p>
-            <p class="aniTextBio4 textBio">
+            
+            <p>
                 Actualmente se encuentra proxima a lanzar su primer material discográfico grabado en 2021 en Estudios
                 Fort por el reconocido Jorge “Portugués” Da Silva, en colaboración con la cantora y letrista Victoria Di
                 Raimondo.
             </p>
-            <p class="aniTextBio4 textBio">
+
+            <p>
                 En sus filas se encuentran prestigiosos musicos, docentes, sesionistas, solistas de orquestas sinfonicas
                 y diversos proyectos de musica popuplar, que han realizado numerosas giras nacionales e internacionales.
             </p>
-            <img src="../fotos ODP/BANDONEONES 2.jpg" class="imgBio" alt="foto bio">
+            </div>
+
+            <img src="../fotos ODP/BANDONEONES 2.jpg" class="imgBio slide-in-right" alt="foto bio">
+            <section>
 
 
 
@@ -81,7 +127,83 @@
 
             <!-- INTEGRANTES -->
 
-            <section class="integrantes">
+
+
+            <div class="container-integrantes px-4 py-5" id="icon-grid">
+                <h3 class="pb-2 border-bottom">INTEGRANTES</h3>
+            
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-3 py-5">
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-violin-64.png" alt="ico-violin"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">VIOLINES</h3>
+                      <ul>
+                        <li><a href="#">Octavio Bianchi Godoy</a></li>
+                        <li><a href="#">Ariadna Bruschini</a></li>
+                        <li><a href="#">Laura Tagle</a></li>
+                        <li><a href="#">Hilen Alves</a></li>
+                        <li><a href="#">Noelia Saldaña</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-violin-64.png" alt="ico-violin"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">VIOLA</h3>
+                      <ul>
+                        <li>
+                            <a href="#">Maite Unzurrunzaga</a>
+                        </li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-violonchelo-50.png" alt="ico-violin"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">VIOLONCHELO</h3>
+                      <ul>
+                        <li>
+                            <a href="#">Regina Manfredi</a>
+                        </li>
+                    </ul>
+                    </div>
+                  </div>
+                 
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-bandoneón-90.png" alt="ico-bando"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">BANDONEONES</h3>
+                      <ul>
+                        <li><a href="#">Joaquín Sterman</a></li>
+                        <li><a href="#">Tomás Muir</a></li>
+                        <li><a href="#">Tito Pellecchia</a></li>
+                        <li><a href="#">Lautaro Pons</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-violonchelo-50.png" alt="ico-violonchelo"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">CONTRABAJO</h3>
+                      <ul>
+                        <li><a href="#">Diego Vázquez</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><img src="../fotos ODP/icons8-director-de-orquesta-50.png" alt="ico-piano"></use></svg>
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-5">PIANO DIRECCION Y COMPOSICION</h3>
+                      <ul>
+                        <li><a href="#">Juan Ignacio Di Pasquale</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+
+            <!-- <section class="integrantes">
                 <p class="integrantes-titulo d-flex justify-content-center" >INTEGRANTES</p>
             </section>
 
@@ -142,7 +264,7 @@
                     <img src="../fotos ODP/icons8-musicalmente-48.png" alt="ico-piano">
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <footer class="py-3 my-4">
