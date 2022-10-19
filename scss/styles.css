@@ -1,110 +1,214 @@
 .desktop {
   width: 100vw;
-  text-align: center;
-}
-.desktop .hero-img {
-  height: 82vh;
 }
 .desktop .hero-img img {
-  height: 100%;
-  max-width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  margin-top: 58px;
-  border-radius: 1%;
-}
-.desktop .link {
-  height: 8vh;
-  display: grid;
-  place-items: center;
+  width: 100%;
 }
 .desktop .link a {
   text-decoration: none;
-  color: rgba(236, 176, 98, 0.877);
+  color: rgba(255, 255, 255, 0.877);
   font-family: "Teko", sans-serif;
-  font-size: 2em;
-}
-
-.bandoIndex {
-  height: 6vw;
-  width: 3vw;
-  margin-top: -13px;
+  font-size: 3.5em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 30px;
 }
 
 /* ANIMACIONES */
-@-webkit-keyframes aniBando {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-  30% {
-    transform: scale3d(1.25, 0.75, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
-}
-@keyframes aniBando {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-  30% {
-    transform: scale3d(1.25, 0.75, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.95, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.95, 1);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
-}
-.aniBando {
-  -webkit-animation: aniBando 5s ease 1s 1 normal forwards;
-          animation: aniBando 5s ease 1s 1 normal forwards;
+.mobile-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
 }
 
-@-webkit-keyframes aniImg {
+.titulo {
+  margin-right: 30vw;
+  font-size: 2em;
+}
+
+.mobile-navbar a {
+  font-size: 1.5em;
+  padding: 0.2em;
+  color: white;
+}
+
+.bio-titulo-desktop {
+  font-size: 5em;
+  margin-bottom: -5vw;
+  display: flex;
+}
+
+.biografia {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 3em;
+}
+.biografia .texto {
+  margin-right: 50vw;
+}
+
+.imgBio {
+  width: 40vw;
+  height: 30vw;
+  position: absolute;
+  border-start-start-radius: 300px;
+  border-end-end-radius: 300px;
+}
+
+.g-3, .gy-3 {
+  --bs-gutter-y: 4rem;
+}
+
+.py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.slide-in-right {
+  -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-right {
   0% {
+    transform: translateX(1000px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }
-
-@keyframes aniImg {
+@keyframes slide-in-right {
   0% {
+    transform: translateX(1000px);
     opacity: 0;
   }
   100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }
-.aniImg {
-  -webkit-animation: aniImg 4s ease 1s 1 normal forwards;
-          animation: aniImg 4s ease 1s 1 normal forwards;
+.musica-desktop {
+  display: flex;
+  justify-content: center;
+}
+.musica-desktop .musica-desktop-avatar img {
+  width: 100vw;
+}
+.musica-desktop .musica-desktop-text {
+  font-size: 5em;
+  position: absolute;
+  color: white;
+  top: 50vh;
 }
 
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.videos-desktop {
+  display: flex;
+  justify-content: center;
+}
+.videos-desktop .videos-desktop-avatar img {
+  width: 100vw;
+}
+.videos-desktop .videos-desktop-text {
+  font-size: 5em;
+  position: absolute;
+  color: white;
+  top: 50vh;
+}
+
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.img-contacto-desktop {
+  width: 100vw;
+}
+
+.contacto-text {
+  color: white;
+  font-size: 5em;
+  position: relative;
+  bottom: 30vw;
+}
+
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 * {
   font-family: "Teko", sans-serif;
 }
@@ -193,26 +297,6 @@ p {
   color: black;
   margin: 1rem;
   padding: 0.5rem;
-}
-
-.imgBio {
-  display: flex;
-  margin-left: 60%;
-  margin-top: -350px;
-  margin-bottom: 100px;
-  width: 500px;
-  height: 400px;
-  border-radius: 2%;
-}
-
-.textBio {
-  text-align: left;
-  margin-right: 50%;
-  margin-left: 50px;
-}
-
-.textBio2 {
-  margin-left: 50px;
 }
 
 /*INTEGRANTES*/
@@ -423,35 +507,4 @@ footer img {
   border-bottom: var(--bs-border-width) var(--bs-border-style) black !important;
 }
 
-/* ANIMACIONES*/
-@-webkit-keyframes aniTextBio {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
-@keyframes aniTextBio {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
-}
-.aniTextBio {
-  animation: aniTextBio 0.5s ease 0s 1 reverse forwards;
-}
-
-.aniTextBio2 {
-  animation: aniTextBio 1s ease 0s 1 reverse forwards;
-}
-
-.aniTextBio3 {
-  animation: aniTextBio 1.5s ease 0s 1 reverse forwards;
-}
-
-.aniTextBio4 {
-  animation: aniTextBio 2s ease 0s 1 reverse forwards;
-}/*# sourceMappingURL=styles.css.map */
+/* ANIMACIONES*//*# sourceMappingURL=styles.css.map */

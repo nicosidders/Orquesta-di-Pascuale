@@ -1,0 +1,22 @@
+
+.musica-desktop{
+    display: flex;
+    justify-content: center;
+    
+
+    .musica-desktop-avatar img{
+        width: 100vw;
+    }
+
+    .musica-desktop-text{
+        font-size: 5em;
+        position: absolute;
+        color: white;
+        top: 50vh;
+    }
+}
+
+//Animacion proximamente
+
+.fade-in-fwd{-webkit-animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}

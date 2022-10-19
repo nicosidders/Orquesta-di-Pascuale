@@ -304,21 +304,28 @@ const component1 =
 
 const component2 =
     `
-   <main class="desktop">
+   
+
+    <main class="desktop">
+
         <section class="link" >
-          <a href="./pages/bio.html">Orquesta Típica Di Pasquale</a>
-          <img id="bando-offcanvas-toggler" class="bandoIndex aniBando" src="./fotos ODP/icons8-bandoneón-90.png" alt="bando-offcanvas-toggler">
+          <a href="./pages/bio.html">ORQUESTA TIPICA DI PASQUALE</a>
         </section>
+
         <section class="hero-img">
           <img src="./fotos ODP/ORQUESTA ENTERA 1.jpg" class="aniImg" >
         </section>
-    </main>
 
+    </main>    
+
+    <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
 </script>
 
-<script src="./index.js"></script>
+    <!-- Javascript -->
+    <script src="./index.js" > </script>
+
 
     `;
 
