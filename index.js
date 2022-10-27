@@ -42,37 +42,8 @@ const component1 =
     
             <!-- LANDING -->
     
-            <h1>ORQUESTA DI PASQUALE</h1>
-            <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../fotos ODP/Julio - Hasta Trilce (100).png" class="d-block w-100" alt="foto1">
-                    </div>
-                    <!--<div class="carousel-item">
-                        <img src="../fotos ODP/CUERDA SOLISTA, ESTA TIENE QUE ESTAR.jpg" class="d-block w-100" alt="foto2">
-                    </div>-->
-                    <div class="carousel-item">
-                        <img src="../fotos ODP/BANDONEONES 4.jpg" class="d-block w-100" alt="foto3">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../fotos ODP/6.png" class="d-block w-100" alt="foto4">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../fotos ODP/DSC07581.png" class="d-block w-100" alt="foto4">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>-->
     
-    
-            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="./odp-vert-mob/vert3.jpg" alt="First slide">
@@ -81,21 +52,14 @@ const component1 =
                     <img class="d-block w-100" src="./odp-vert-mob/vert2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                        <img src="../fotos ODP/CUERDA SOLISTA, ESTA TIENE QUE ESTAR.jpg" class="d-block w-100" alt="foto2">
+                        <img src="./odp-vert-mob/vert5.jpg" class="d-block w-100" alt="foto2">
                     </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="../fotos ODP/CUERDA SOLISTA 2.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="./odp-vert-mob/vert6.png" alt="Third slide">
                   </div>
                 </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </div>
+              
     
     
             <!-- BIO -->
@@ -273,20 +237,16 @@ const component1 =
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
-                    <a href="https://api.whatsapp.com/send/?phone=5491140333125"></i></a>
-                    <img src="./fotos ODP/footer-icons/wasap.png" alt="">
+                  <a href="https://api.whatsapp.com/send/?phone=5491140333125"><img src="../fotos ODP/footer-icons/wasap.png" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.facebook.com/Orquesta-T%C3%ADpica-Di-Pasquale-108168401875322"></i></a>
-                    <img src="./fotos ODP/footer-icons/face.png" alt="">
+                  <a href="https://www.facebook.com/Orquesta-T%C3%ADpica-Di-Pasquale-108168401875322"><img src="../fotos ODP/footer-icons/face.png" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.instagram.com/orquestatipicadipasquale/"></a>
-                    <img src="./fotos ODP/footer-icons/insta.png" alt="">
+                   <a href="https://www.instagram.com/orquestatipicadipasquale/"> <img src="../fotos ODP/footer-icons/insta.png" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.youtube.com/channel/UCBNVVmwPhj9Bdr9k2AiEE3w"></i></a>
-                    <img src="./fotos ODP/footer-icons/yt.png" alt="">
+                   <a href="https://www.youtube.com/channel/UCBNVVmwPhj9Bdr9k2AiEE3w"><img src="../fotos ODP/footer-icons/yt.png" alt=""></a>
                 </li>   
             </ul>
             <p class="text-center text-muted"> &COPY; 2022 ORQUESTA DI PASQUALE</p>
