@@ -89,6 +89,36 @@ const component1 =
                 </p></div>
     
             </section>
+
+
+            <div class="container-integrantes px-4 py-5" id="icon-grid">
+                <h3 class="pb-2 border-bottom">PRENSA</h3>
+
+                <ul class="">
+                    <li class="bio-container">
+                        <a href="https://www.cck.gob.ar/events/milonga-federal-abierta-atipica-y-plural-13/ ">CCK  | Milonga Federal. Abierta, atípica y plural
+                            (12.05.2022) Orquesta Típica Di Pasquale + Victoria Di Raimondo</a>
+                    </li>
+                    <li class="mt-1 bio-container">
+                        <a href="https://www.lanacion.com.ar/cartelera-de-teatro/obra/orquesta-tipica-di-pasquale-flor-bobadilla-ol-ob30577">LA NACION | Cartelera de teatro
+                            (21.07.2022) Orquesta Típica Di Pasquale + Flor Bobadilla Oliva</a>
+                    </li>
+                    <li class="mt-1 bio-container">
+                        <a href="https://www.telam.com.ar/notas/202208/601415-musica-teatro-agenda.html"> Télam | ESPECTÁCULOS
+                            (11.08.2022)  Orquesta Tipica Di Pasquale + Nacho Moze Septeto</a>
+                    </li>
+                    <li class="mt-1 bio-container">
+                        <a href="https://www.pagina12.com.ar/389592-el-sur-es-el-arrabal-de-la-actualidad">Página 12 | CULTURA Y ESPECTÁCULOS
+                            (16.12.2021) Orquesta Típica Di Pasquale + Victoria Di Raimondo en el  Festival de Tango en Movimiento.</a>
+                    </li>   
+                    <li class="mt-1 bio-container">
+                        <a href="https://www.pagina12.com.ar/438887-el-festival-toca-dak-y-mas-shows-para-el-fin-de-semana">Página 12 | Secciones y suplementos 
+                            (21.07.2022) Orquesta Típica Di Pasquale + Flor Bobadilla Oliva + Nicolás Lugangioli</a>
+                    </li>
+                </ul>
+            
+                
+            </div>
     
     
     
@@ -155,16 +185,14 @@ const component1 =
                         <img src="./fotos ODP/icons8-musicalmente-48.png" alt="ico-piano">
                     </div>
                 </div>
-            </section>
-    
-    
+            </section>    
     
     
             <!-- MUSICA Y VIDEOS -->
     
             <section class="musica" id="musica">
                 <p class="musica-titulo"> MUSICA </p>
-                <img src="./fotos ODP/banner-musica.png"  class=" d-block w-100" alt="">
+                <img src="./fotos ODP/originales/6.jpg"  class=" d-block w-100" alt="">
     
                     
     
@@ -177,9 +205,9 @@ const component1 =
     
             <section class="videos" id="videos">       
             <p class="videos-titulo" >VIDEOS</p>    
-            <img src="./fotos ODP/banner-bando.png"  class=" d-block w-100" alt="">
+            <img src="./fotos ODP/banner-musica.png"  class=" d-block w-100" alt="">
     
-    
+            
     
                 <!-- <section class="videos">
                  <p class="d-flex justify-content-center corto-titulo">CORTO</p> -->
@@ -193,6 +221,9 @@ const component1 =
                       <div class="text">PROXIMAMENTE</div>
                     </div>
                   </div>      
+
+
+                  
     
 
                   
