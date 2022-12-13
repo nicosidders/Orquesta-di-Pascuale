@@ -17,7 +17,48 @@
     }
 }
 
+.btn-play{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: rgba(255, 250, 250, 0);
+    border-radius: 50px;
+    text-align: center;
+}
+
 //Animacion proximamente
 
 .fade-in-fwd{-webkit-animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both}
 @-webkit-keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+
+.btn-play{
+    animation: aniPlay 3s ease 1s 1 normal forwards;
+}
+@keyframes aniPlay {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}

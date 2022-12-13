@@ -152,6 +152,15 @@
   top: 50vh;
 }
 
+.btn-play {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  background: rgba(255, 250, 250, 0);
+  border-radius: 50px;
+  text-align: center;
+}
+
 .fade-in-fwd {
   -webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -175,6 +184,68 @@
   100% {
     transform: translateZ(0);
     opacity: 1;
+  }
+}
+.btn-play {
+  -webkit-animation: aniPlay 3s ease 1s 1 normal forwards;
+          animation: aniPlay 3s ease 1s 1 normal forwards;
+}
+
+@-webkit-keyframes aniPlay {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+@keyframes aniPlay {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
   }
 }
 .img-contacto-desktop {
