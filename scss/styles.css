@@ -40,6 +40,7 @@
   font-size: 5em;
   margin-bottom: -5vw;
   display: flex;
+  margin-left: 4rem;
 }
 
 .biografia {
@@ -101,6 +102,8 @@
 }
 .musica-desktop .musica-desktop-avatar img {
   width: 100vw;
+  height: 57rem;
+  filter: blur(6px);
 }
 .musica-desktop .musica-desktop-text {
   font-size: 5em;
@@ -140,6 +143,7 @@
 }
 .videos-desktop .videos-desktop-avatar img {
   width: 100vw;
+  height: 70rem;
 }
 .videos-desktop .videos-desktop-text {
   font-size: 5em;
@@ -225,7 +229,7 @@ a {
 
 /*NAVBAR*/
 .nav-link {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
@@ -405,7 +409,7 @@ h4 {
 
 /*MUSICA Y VIDEOS*/
 .spotify {
-  box-shadow: 1px 2px 9px black;
+  box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.781);
   margin-top: 50px;
 }
 

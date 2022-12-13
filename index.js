@@ -135,7 +135,6 @@ const component1 =
                             <li><a href="#">Octavio Bianchi Godoy</a></li>
                             <li><a href="#">Ariadna Bruschini</a></li>
                             <li><a href="#">Laura Tagle</a></li>
-                            <li><a href="#">Hilen Alves</a></li>
                             <li><a href="#">Noelia Saldaña</a></li>
                         </ul>
                         <img src="./fotos ODP/icons8-violin-64.png" alt="ico-violin">
@@ -216,11 +215,14 @@ const component1 =
     
     <!-- PROXIMAMENTE CARD -->
                  <div class="container">
+
+                <a href="https://www.youtube.com/embed/fzGDTseB2jY" autoplay>
                     <img src="./fotos ODP/img-proximamente.jpg" alt="Avatar" class="image" style="width:100%">
                     <div class="middle">
-                      <div class="text">PROXIMAMENTE</div>
+                      <div class="text">TRAILER</div>
                     </div>
                   </div>      
+                </a>
 
 
                   
