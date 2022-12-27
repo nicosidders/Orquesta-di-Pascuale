@@ -112,6 +112,22 @@
   top: 50vh;
 }
 
+.musica-mobile {
+  display: flex;
+  justify-content: center;
+}
+.musica-mobile .musica-mobile-avatar img {
+  width: 80vw;
+  height: 27rem;
+  filter: blur(3.5px);
+}
+.musica-mobile .musica-mobile-text {
+  font-size: 2em;
+  position: absolute;
+  color: white;
+  top: 480vh;
+}
+
 .fade-in-fwd {
   -webkit-animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-fwd 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -302,16 +318,19 @@ a {
 .nav-link {
   color: rgb(0, 0, 0);
 }
+.nav-link:hover {
+  color: rgb(219, 32, 32);
+}
 
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
   color: #f00;
 }
 
 .navLat {
-  background-color: rgba(255, 255, 255, 0.897);
+  background-color: rgba(255, 255, 255, 0.911);
   font-size: larger;
-  background-image: url(../fotos\ ODP/pianoNav.jpg);
-  background-position: top;
+  background-image: url(../fotos\ ODP/fondoNav.jpg);
+  background-position: bottom right;
 }
 
 .btn-close {

@@ -195,9 +195,13 @@ const component1 =
     
                     
     
-                <article class="spotify">
-                    <iframe src="https://open.spotify.com/embed/album/5FAoWgJBCmuYK9pFw6g5XE?utm_source=generator&theme=0" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </article>
+                <div class="musica-mobile" >
+                <div class="musica-mobile-avatar mt-4">
+                  <img  src="../fotos ODP/tapaDisco.jpg" alt="Avatar">
+                </div>
+          
+                <div class="musica-mobile-text fade-in-fwd"> PROXIMAMENTE  </div>
+                
             </section>
     
             
@@ -240,7 +244,7 @@ const component1 =
                     </div>
     
     
-                    <form action="https://formsubmit.co/acavieneun@mail.com " method="post"> 
+                    <form action="https://formsubmit.co/orquestatipicadipasquale@gmail.com " method="post"> 
                         <!-- orquestatipicadipasquale@gmail.com // cambiar a este mail cuando se sube a la pagina final -->
                         <div class="form-group">
                             <div class="form-row">

@@ -18,6 +18,28 @@
     }
 }
 
+.musica-mobile{
+    display: flex;
+    justify-content: center;
+    
+
+    .musica-mobile-avatar img{
+        width: 80vw;
+        height: 27rem;
+        filter: blur(3.5px);
+    }
+
+    .musica-mobile-text{
+        font-size: 2em;
+        position: absolute;
+        color: white;
+        top: 480vh;
+
+    }
+}
+
+
+
 //Animacion proximamente
 
 .fade-in-fwd{-webkit-animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-fwd 1.2s cubic-bezier(.39,.575,.565,1.000) both}
