@@ -193,15 +193,15 @@ const component1 =
                 <p class="musica-titulo"> MUSICA </p>
                 <img src="./fotos ODP/originales/6.jpg"  class=" d-block w-100" alt="">
     
-                    
+                <article> 
     
-                <div class="musica-mobile" >
-                <div class="musica-mobile-avatar mt-4">
+                  <div class="musica-mobile" >
+                  <div class="musica-mobile-avatar mt-4">
                   <img  src="../fotos ODP/tapaDisco.jpg" alt="Avatar">
-                </div>
+                  </div>
           
-                <div class="musica-mobile-text fade-in-fwd"> PROXIMAMENTE  </div>
-                
+                  <div class="musica-mobile-text fade-in-fwd"> PROXIMAMENTE  </div>
+                </article> 
             </section>
     
             

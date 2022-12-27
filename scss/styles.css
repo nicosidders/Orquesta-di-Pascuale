@@ -125,7 +125,8 @@
   font-size: 2em;
   position: absolute;
   color: white;
-  top: 480vh;
+  text-align: center;
+  margin-top: 4em;
 }
 
 .fade-in-fwd {
